@@ -1,0 +1,37 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+.appContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  align-items: center;
+}
+.buttontext {
+  background-color: transparent;
+  border-radius: 5px;
+  border-color: #db1c48;
+  color: #db1c48;
+  padding: 10px;
+  border-style: solid;
+  margin: 10px;
+  cursor: pointer;
+}
+.special {
+  background-color: #db1c48;
+  border-radius: 5px;
+  border-color: white;
+  color: white;
+  padding: 10px;
+  border-style: solid;
+  margin: 10px;
+  cursor: pointer;
+}
+.listitems {
+  display: flex;
+}
+li {
+  list-style: none;
+}
